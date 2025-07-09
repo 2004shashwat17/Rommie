@@ -54,7 +54,7 @@ const Update = () => {
 
     const [post, setPost] = useState(initialPost);
     const [file, setFile] = useState(null);
-    const [imageURL, setImageURL] = useState('');
+    // const [imageURL, setImageURL] = useState('');
 
     const url = 'https://images.unsplash.com/photo-1543128639-4cb7e6eeef1b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGFwdG9wJTIwc2V0dXB8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80';
     
@@ -88,7 +88,7 @@ const Update = () => {
                             ...prevPost,
                             picture: response.data
                         }));
-                        setImageURL(response.data);
+                        // setImageURL(response.data);
                     } else {
                         console.error("Image upload failed:", response?.message || "Unknown error");
                     }
