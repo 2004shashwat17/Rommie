@@ -140,3 +140,13 @@ for (const [key, value] of Object.entries(SERVICE_URLS)) {
 }
 
 export { API };
+
+// Azure/Production Axios Instance (for cloud deployment)
+// Use this default export in your app for production/cloud API calls.
+const api = axios.create({
+    baseURL: process.env.REACT_APP_API_URL,
+    // ...other config (headers, etc.) if needed
+});
+
+export default api;
+
