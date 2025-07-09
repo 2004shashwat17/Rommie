@@ -11,11 +11,9 @@ on:
 
 jobs:
   build:
-      build:
     runs-on: ubuntu-latest
     permissions:
       contents: read #This is required for actions/checkout
-
     steps:
       - uses: actions/checkout@v4
 
@@ -47,7 +45,6 @@ jobs:
     permissions:
       id-token: write #This is required for requesting the JWT
       contents: read #This is required for actions/checkout
-
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
@@ -71,4 +68,3 @@ jobs:
           app-name: 'rommie-backend'
           slot-name: 'Production'
           package: .
-          
