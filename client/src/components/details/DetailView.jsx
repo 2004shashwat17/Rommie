@@ -71,7 +71,7 @@ const DetailView = () => {
             }
         }
         fetchData();
-    }, []);
+     }, [id]);
 
     const deleteBlog = async () => {  
         try {
