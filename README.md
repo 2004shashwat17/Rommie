@@ -11,3 +11,5 @@ The project includes thoughtful error handling, with meaningful alerts for reque
 To ensure scalability and performance, 
 I implemented lazy loading for components, optimized images, and kept state updates minimal. This project demonstrates real-world problem-solving, secure file handling, and complete end-to-end development. 
 It’s fully deployed on Render, making it accessible anytime. Overall, this project highlights my skills in building secure, scalable, and user-friendly web applications, and reflects my interest in this domain.
+
+Live Demo -> https://rommie-client.onrender.com/
