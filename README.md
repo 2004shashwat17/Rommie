@@ -30,53 +30,10 @@ Finding the right roommate shouldn’t feel like swiping in the dark. This full-
 🧪 Error Handling – Clean UI alerts for validation fails, timeouts, and more.
 
 🛠️ Tech Stack
-Frontend
+Frontend -> React.js || Material-UI || Axios || React Router DOM || React Context API
+Backend -> Node.js || Express.js || MongoDB || JWT || bcrypt
+DevOps & Deployment -> Render (Frontend + Backend deployment)
 
-React.js
-
-Material-UI
-
-Axios
-
-React Router DOM
-
-React Context API
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB
-
-JWT
-
-bcrypt
-
-DevOps & Deployment
-
-Render (Frontend + Backend deployment)
-
-🧑‍💻 Project Architecture
-pgsql
-Copy
-Edit
-client/
-├── public/
-├── src/
-│   ├── components/
-│   ├── context/
-│   ├── pages/
-│   ├── utils/
-│   └── App.js
-server/
-├── config/
-├── controllers/
-├── middleware/
-├── models/
-├── routes/
-└── index.js
 🌈 User Experience
 Responsive design using Material-UI breakpoints 📱💻
 
